@@ -54,3 +54,32 @@ orchestrate connections list
 ```
 
 ## Demos
+1. **IP Reputation Checker** - An agent that checks the reputation of IP addresses using VirusTotal
+   
+   This demo showcases an agent that can evaluate the security reputation of any IP address using the VirusTotal API. The agent provides detailed information about whether an IP is malicious, which security vendors flagged it, its geographic location, and associated threats.
+
+   ### Setup
+   1. Make sure you have a VirusTotal API key. You can sign up for free at [VirusTotal](https://www.virustotal.com/).
+   2. Set your API key as an environment variable:
+      ```bash
+      export VIRUSTOTAL_API_KEY=your_api_key_here
+      ```
+   3. Deploy the agent and required components:
+      ```bash
+      ./demos/demo_1_deploy.sh
+      ```
+
+   ### Usage
+   Once deployed, you can interact with the agent by providing any IP address you want to check. The agent will:
+   - Fetch the IP's reputation data from VirusTotal
+   - Analyze the security verdicts
+   - Present findings in a structured format showing malicious indicators, geographic data, and security details
+
+   ### Cleanup
+   To remove the agent, tools, and connections created for this demo:
+   ```bash
+   ./demos/demo_1_clean.sh
+   ```
+
+
+
