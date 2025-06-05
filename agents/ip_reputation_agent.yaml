@@ -15,7 +15,7 @@ instructions: >
   
   Format your responses in a structured, easy-to-read manner, highlighting important security concerns.
 
-llm: watsonx/meta-llama/llama-3-2-90b-instruct
+llm: watsonx/meta-llama/llama-3-2-90b-vision-instruct
 style: default
 collaborators: []
 tools:
