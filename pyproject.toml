@@ -1,0 +1,11 @@
+[project]
+name = "wxo-demos"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "black>=25.1.0",
+    "ibm-watsonx-orchestrate>=1.4.2",
+    "requests>=2.32.3",
+]
