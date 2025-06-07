@@ -162,3 +162,50 @@ orchestrate connections list
    ```bash
    ./demos/demo_2_clean.sh
    ```
+
+3. **Content Extractor** - An agent that extracts content from web pages
+
+   This demo showcases an agent that can extract meaningful content from any web page URL. It
+   retrieves the main text, images, and metadata, providing a structured summary of the page's
+   content.
+
+   ### Setup
+    1. Deploy the agent and required components:
+       ```bash
+       ./demos/demo_3_deploy.sh
+       ```
+
+   ### Usage
+   After deployment, you can interact with the agent by providing a URL. The agent will:
+    - Fetch the web page content
+    - Extract the main text, images, and metadata
+    - Provide a structured summary of the page's content
+
+   ### Cleanup
+   To remove the agent, tools, and connections created for this demo:
+   ```bash
+   ./demos/demo_3_clean.sh
+   ```
+   
+4. **Research Assistant** - An agent that helps with research tasks
+
+   This demo features an agent that can assist with various research tasks, such as finding
+   information on specific topics, summarizing articles, and providing references.
+
+   ### Setup
+    1. Deploy the agent and required components:
+       ```bash
+       ./demos/demo_4_deploy.sh
+       ```
+
+   ### Usage
+   After deployment, you can interact with the agent by asking research-related questions. The agent will:
+    - Search for relevant information on the topic
+    - Summarize key findings
+    - Provide references and sources for further reading
+
+   ### Cleanup
+   To remove the agent, tools, and connections created for this demo:
+   ```bash
+   ./demos/demo_4_clean.sh
+   ```
