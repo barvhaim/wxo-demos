@@ -1,0 +1,4 @@
+WO_DEVELOPER_EDITION_SOURCE=myibm
+WO_ENTITLEMENT_KEY=<my_entitlement_key>
+WATSONX_APIKEY=<my_watsonx_api_key>
+WATSONX_SPACE_ID=<my_space_id>
