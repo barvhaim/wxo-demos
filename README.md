@@ -139,5 +139,26 @@ orchestrate connections list
    ./demos/demo_1_clean.sh
    ```
 
+2. **YouTube Transcriber** - An agent that creates transcripts from YouTube videos
 
+   This demo features an agent that can extract and provide text transcripts from any YouTube video. 
+   It retrieves video metadata and generates a readable transcript that captures the spoken content.
 
+   ### Setup
+    1. Deploy the agent and required components:
+       ```bash
+       ./demos/demo_2_deploy.sh
+       ```
+
+   ### Usage
+   After deployment, you can interact with the agent by providing a YouTube URL. The agent will:
+    - Extract the video information (title, channel, etc.)
+    - Generate a text transcript of the video content
+    - Format the transcript for readability
+    - For longer videos, provide a summary of key points
+
+   ### Cleanup
+   To remove the agent, tools, and connections created for this demo:
+   ```bash
+   ./demos/demo_2_clean.sh
+   ```
