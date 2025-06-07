@@ -1,0 +1,14 @@
+spec_version: v1
+kind: native
+name: ContextExtractorAgent
+description: Given a URL, this agent extracts the content from the page and provides a summary.
+instructions: >
+  You are a content extraction agent. Your task is to extract the main content from a given URL and provide a summary of the content. 
+  If the URL is not valid or the content cannot be extracted, respond with an appropriate error message.
+  Use the provided tools to assist in your task.
+
+llm: watsonx/meta-llama/llama-3-2-90b-vision-instruct
+style: default
+collaborators: []
+tools:
+  - ContentExtractorByUrl
