@@ -209,3 +209,27 @@ orchestrate connections list
    ```bash
    ./demos/demo_4_clean.sh
    ```
+
+5. **Procurement Assistant** - An agent that analyzes Bill of Materials (BOM) files
+
+   This demo features a specialized agent that can interpret and answer questions about Excel-based
+   Bill of Materials (BOM) files. It helps procurement teams quickly analyze component information.
+
+   ### Setup
+    1. Deploy the agent and required components:
+       ```bash
+       ./demos/demo_5_deploy.sh
+       ```
+
+   ### Usage
+   After deployment, add the BOM manually via the Agents builder UI.
+   The agent will:
+    - Analyze the provided Excel BOM file
+    - Answer specific questions about components, costs, quantities, etc.
+    - Help identify procurement needs and opportunities
+
+   ### Cleanup
+   To remove the agent, tools, and connections created for this demo:
+   ```bash
+   ./demos/demo_5_clean.sh
+   ```

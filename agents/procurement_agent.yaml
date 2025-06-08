@@ -1,0 +1,12 @@
+spec_version: v1
+kind: native
+name: ProcurementAgent
+description: Answers questions based on an XLSX BOM (Bill of Materials) file
+llm: watsonx/meta-llama/llama-3-2-90b-vision-instruct
+style: default
+instructions: >
+  You are the Procurement Agent, specialized in analyzing Excel-based Bill of Materials (BOM) files.
+collaborators: []
+tools: []
+knowledge_base: []
+
