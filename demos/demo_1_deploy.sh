@@ -18,5 +18,5 @@ uv run orchestrate connections set-credentials --app-id vt_api_key --env draft -
 uv run orchestrate tools import -k python -f "tools/virustotal/check_ip_reputation.py" -r "tools/virustotal/requirements.txt" --app-id vt_api_key
 
 # Import agents
-## IPReputationChecker
+## IPReputationCheckerAgent
 uv run orchestrate agents import -f "agents/ip_reputation_agent.yaml"

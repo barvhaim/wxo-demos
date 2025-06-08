@@ -25,6 +25,15 @@ uv run orchestrate toolkits import \
     --app-id "tavily_api_key"
 
 # Import agents
-## TopicResearchAgent
-uv run orchestrate agents import -f "agents/topic_research_agent.yaml"
+## TopicResearcherAgent
+uv run orchestrate agents import -f "agents/patent_topic_research_agent.yaml"
+
+## IdeasGeneratorAgent
+uv run orchestrate agents import -f "agents/patent_ideation_agent.yaml"
+
+## PatentDrafterAgent
+uv run orchestrate agents import -f "agents/patent_drafter_agent.yaml"
+
+## PatentSupervisorAgent
+uv run orchestrate agents import -f "agents/patent_supervisor_agent.yaml"
 

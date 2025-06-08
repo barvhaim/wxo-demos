@@ -46,7 +46,7 @@ And run `orchestrate --help` (or `wxo --help`) to verify the installation.
    ```
 - Run the server to start the local environment:
    ```bash
-   orchestrate server start --env-file=.adk
+   orchestrate server start --env-file=.adk -l # -l enables observability platform
    ```
 
 ### Attaching to a remote environment
@@ -187,10 +187,10 @@ orchestrate connections list
    ./demos/demo_3_clean.sh
    ```
    
-4. **Research Assistant** - An agent that helps with research tasks
+4. **Patents generator (WIP)** - An agent that generates patents based on a given topic
 
-   This demo features an agent that can assist with various research tasks, such as finding
-   information on specific topics, summarizing articles, and providing references.
+   This demo features an agent that can generate patent documents based on user-provided
+   topic. It uses a template to create structured patent applications.
 
    ### Setup
     1. Deploy the agent and required components:
@@ -199,10 +199,10 @@ orchestrate connections list
        ```
 
    ### Usage
-   After deployment, you can interact with the agent by asking research-related questions. The agent will:
-    - Search for relevant information on the topic
-    - Summarize key findings
-    - Provide references and sources for further reading
+   After deployment, you can interact with the agent by providing a description of the invention.
+   The agent will:
+    - Generate a structured patent document using the provided description
+    - Format the document according to standard patent application guidelines
 
    ### Cleanup
    To remove the agent, tools, and connections created for this demo:

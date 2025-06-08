@@ -1,8 +1,17 @@
 #!/bin/bash
 
 # Remove existing agents
-## TopicResearchAgent
-uv run orchestrate agents remove -n TopicResearchAgent -k native
+## PatentSupervisorAgent
+uv run orchestrate agents remove -n PatentSupervisorAgent -k native
+
+## TopicResearcherAgent
+uv run orchestrate agents remove -n TopicResearcherAgent -k native
+
+## IdeasGeneratorAgent
+uv run orchestrate agents remove -n IdeasGeneratorAgent -k native
+
+## PatentDrafterAgent
+uv run orchestrate agents remove -n PatentDrafterAgent -k native
 
 # Remove existing tools
 ## Tavily MCP

@@ -1,6 +1,6 @@
 spec_version: v1
 kind: native
-name: YouTubeVideoInfo
+name: YouTubeVideoInfoAgent
 description: Retrieves information about YouTube videos
 instructions: >
   You are the YouTube Video Info Agent, specialized in retrieving metadata about YouTube videos.

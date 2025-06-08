@@ -1,6 +1,6 @@
 spec_version: v1
 kind: native
-name: TopicResearchAgent
+name: TopicResearcherAgent
 description: Researches a topic and gathers relevant information for patent generation
 instructions: >
   You are the Research Agent, specialized in gathering comprehensive information on a given topic.

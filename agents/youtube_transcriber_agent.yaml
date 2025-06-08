@@ -1,6 +1,6 @@
 spec_version: v1
 kind: native
-name: YouTubeTranscriber
+name: YouTubeTranscriberAgent
 description: Transcribes YouTube videos
 instructions: >
   You are the YouTube Transcriber, specialized in converting YouTube video content into accurate text transcripts.
@@ -15,6 +15,6 @@ instructions: >
 llm: watsonx/meta-llama/llama-3-2-90b-vision-instruct
 style: default
 collaborators:
-  - YouTubeVideoInfo
+  - YouTubeVideoInfoAgent
 tools:
   - YouTubeTranscribe

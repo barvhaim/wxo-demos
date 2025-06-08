@@ -1,6 +1,6 @@
 spec_version: v1
 kind: native
-name: IPReputationChecker
+name: IPReputationCheckerAgent
 description: Checks the reputation of IP addresses
 instructions: >
   You are the IP Reputation Checker, specialized in analyzing the security reputation of IP addresses.

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Remove existing agents
-uv run orchestrate agents remove -n IPReputationChecker -k native
+uv run orchestrate agents remove -n IPReputationCheckerAgent -k native
 
 # Remove existing tools
 uv run orchestrate tools remove -n CheckIpReputation
