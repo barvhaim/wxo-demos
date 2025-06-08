@@ -1,5 +1,7 @@
 # watsonx Orchestrate demos
 
+<img width="579" alt="Image" src="https://github.com/user-attachments/assets/20713ea5-836b-4e3b-865e-c50c6d2422c1" />
+
 Playground for experimenting with watsonx Orchestrate.
 
 ## Prerequisites
