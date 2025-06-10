@@ -95,6 +95,32 @@ To stop the local environment, run:
 orchestrate server stop
 ````
 
+### Working with local models (optional)
+#### Ollama
+
+Model name: `virtual-model/ollama/*`
+
+Env content:
+```text
+OLLAMA_API_KEY=ollama
+OLLAMA_CUSTOM_HOST=http://docker.host.internal:11434
+OLLAMA_URL_TO_FETCH=http://docker.host.internal:11434
+```
+
+Note: must launch ollama by setting `export OLLAMA_HOST=0.0.0.0:11434` and then running `ollama serve`
+
+##### Add the model
+```bash
+orchestrate models add -n ollama/llama3.1:8b --display-name "llama3.1:8b" --env-file .adk
+[INFO] - Successfully added the model 'virtual-model/ollama/llama3.1:8b'
+```
+
+##### Remove the model
+```bash
+orchestrate models remove -n virtual-model/ollama/llama3.1:8b
+[INFO] - Successfully removed the model 'virtual-model/ollama/llama3.1:8b'
+```
+
 ## Usage
 
 To list all available agents in the active environment:
