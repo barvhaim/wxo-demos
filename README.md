@@ -46,6 +46,14 @@ And run `orchestrate --help` (or `wxo --help`) to verify the installation.
    WO_USERNAME=<your_wxo_email>
    WO_PASSWORD=<your_wxo_password_for_cp4d>
    ```
+  OR you can use remote `watsonx.ai` instance for LLM:
+   ```
+   WO_DEVELOPER_EDITION_SOURCE=myibm
+   WO_ENTITLEMENT_KEY=<my_entitlement_key>
+   WATSONX_APIKEY=<my_watsonx_api_key>
+   WATSONX_SPACE_ID=<my_space_id>
+   ```
+
 - Run the server to start the local environment:
    ```bash
    orchestrate server start --env-file=.adk -l # -l enables observability platform
