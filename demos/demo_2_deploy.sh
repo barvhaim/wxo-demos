@@ -9,8 +9,10 @@ uv run orchestrate tools import -k python -f "tools/youtube/youtube_transcriber.
 
 
 # Import agents
-## YouTubeVideoInfoAgent
+## YouTubeVideoInformationAgent
 uv run orchestrate agents import -f "agents/youtube_video_info_agent.yaml"
+
+sleep 2
 
 ## YouTubeTranscriberAgent
 uv run orchestrate agents import -f "agents/youtube_transcriber_agent.yaml"

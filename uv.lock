@@ -731,7 +731,7 @@ wheels = [
 
 [[package]]
 name = "ibm-watsonx-orchestrate"
-version = "1.5.0b1"
+version = "1.5.0b0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "certifi" },
@@ -756,9 +756,9 @@ dependencies = [
     { name = "typer" },
     { name = "urllib3" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/40/fc/e34694458fdeea38c27bb205ff5be077710f9345cf78a1ebf6879690f13f/ibm_watsonx_orchestrate-1.5.0b1.tar.gz", hash = "sha256:6a6e8f0c002d5e17c92eb4b34df46cfeba8a56ede48a7ac40f5b3bf4c73a577f", size = 4184274, upload-time = "2025-06-11T21:42:33.611Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/3d/fc/bc94b8b6cd7d4ccd6194a5be684dca1f358e79ff1f15331795260b839d2e/ibm_watsonx_orchestrate-1.5.0b0.tar.gz", hash = "sha256:b8ed31468aa685103a76cd3383b0e3e84c8752a3114212bd272d5a71ec4ab0c8", size = 4180514, upload-time = "2025-05-30T19:46:50.078Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/8a/f9/5252e5888e5ada81585584b139c59e90c9dbe0f4030a18a549fa83fc41ec/ibm_watsonx_orchestrate-1.5.0b1-py3-none-any.whl", hash = "sha256:46d200c8d1980aaf1a5de6830a160fc0179b484473591dbcb08052c78bd4f53f", size = 4230696, upload-time = "2025-06-11T21:42:32.237Z" },
+    { url = "https://files.pythonhosted.org/packages/b1/41/192580c936a986bc9944d71242534c83c919900f066a3ec00a1a967189ff/ibm_watsonx_orchestrate-1.5.0b0-py3-none-any.whl", hash = "sha256:fe96f54817f4bbc5d094ff38c51b39a6e82d3f7838f516732399545b50d7bf98", size = 4224884, upload-time = "2025-05-30T19:46:48.649Z" },
 ]
 
 [[package]]
@@ -2842,7 +2842,7 @@ dependencies = [
 requires-dist = [
     { name = "black", specifier = ">=25.1.0" },
     { name = "docling", specifier = ">=2.36.1" },
-    { name = "ibm-watsonx-orchestrate", specifier = "==1.5.0b1" },
+    { name = "ibm-watsonx-orchestrate", specifier = "==1.5.0b0" },
     { name = "requests", specifier = ">=2.32.3" },
     { name = "yt-dlp", specifier = ">=2025.5.22" },
 ]
