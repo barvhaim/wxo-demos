@@ -33,6 +33,8 @@ instructions: >
   Your role is to manage the workflow between agents and ensure a high-quality patent is produced.
   Always maintain a professional tone and focus on creating valuable intellectual property that
   balances technical depth with broad protection.
+  
+  Always use all available tools and agents to assist in your tasks!
 
 llm: watsonx/meta-llama/llama-3-2-90b-vision-instruct
 style: default

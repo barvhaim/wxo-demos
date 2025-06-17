@@ -20,7 +20,7 @@ uv run orchestrate toolkits import \
     --name tavily \
     --description "tavily search mcp server" \
     --package "tavily-mcp" \
-    --command '["npx", "-y", "tavily-mcp@0.2.2"]' \
+    --command '["npx", "-y", "tavily-mcp"]' \
     --tools "*" \
     --app-id "tavily_api_key"
 

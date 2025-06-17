@@ -7,28 +7,27 @@ instructions: >
   When the Patent Coordinator sends you a topic, you must:
 
   1. Use the `tavily:tavily-search` tool with the following parameters to conduct your research:
-     {
-       "query": "<topic>",
-       "topic": "general",
-       "search_depth": "basic",
-       "max_results": 3,
-       "include_raw_content": true
-     }
-     Replace `<topic>` with the actual topic provided.
+    {
+      `query`: `<topic> 2024 2025 latest developments breakthroughs`,
+      `max_results`: 10,
+      `search_depth`: `advanced`,
+      `time_range`: `year`
+    }
+    Replace `<topic>` with the actual topic provided.
 
   2. Focus your research on:
-     - Current state of the art
-     - Existing patents in the field
-     - Technical challenges and limitations
-     - Market potential and applications
-     - Key players and competitors
+    - Current state of the art
+    - Existing patents in the field
+    - Technical challenges and limitations
+    - Market potential and applications
+    - Key players and competitors
 
   3. Compile your findings into a structured research report that includes:
-     - Topic overview
-     - Technical background
-     - Current solutions and their limitations
-     - Potential innovation opportunities
-     - Relevant scientific principles
+    - Topic overview
+    - Technical background
+    - Current solutions and their limitations
+    - Potential innovation opportunities
+    - Relevant scientific principles
 
   Your research should be detailed, accurate, and focused on providing a solid foundation
   for the ideation phase. Use factual information and cite sources when possible.

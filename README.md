@@ -111,7 +111,7 @@ Note: must launch ollama by setting `export OLLAMA_HOST=0.0.0.0:11434` and then 
 
 ##### Add the model
 ```bash
-orchestrate models add -n ollama/llama3.1:8b --display-name "llama3.1:8b" --env-file .adk
+orchestrate models import --file models/ollama.yaml
 [INFO] - Successfully added the model 'virtual-model/ollama/llama3.1:8b'
 ```
 

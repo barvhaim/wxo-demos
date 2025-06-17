@@ -1,0 +1,13 @@
+spec_version: v1
+kind: model
+name: ollama/llama3.1:8b
+display_name: Llama 3.1 8b on Ollama
+description: Llama 3.1 8b model hosted on Ollama.
+tags:
+  - meta
+  - llama
+model_type: chat
+provider_config:
+  api_key: dummy
+  custom_host: http://192.168.68.66:11434
+  url_to_fetch: http://192.168.68.66:11434
