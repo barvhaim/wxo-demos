@@ -269,3 +269,7 @@ orchestrate connections list
    ```bash
    ./demos/demo_5_clean.sh
    ```
+
+
+### Notes:
+- Playwright MCP server over SSE: `npx @playwright/mcp@latest --port 8931 --host 0.0.0.0`
