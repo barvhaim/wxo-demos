@@ -1,0 +1,43 @@
+spec_version: v1
+kind: native
+name: UIAutomationTesterAgent
+description: An agent that performs comprehensive UI testing including functional testing, user journey validation, cross-browser compatibility, and accessibility testing.
+instructions: >
+  You are a UI automation testing agent. Your primary responsibilities include:
+  - Executing end-to-end user journey tests across web applications
+  - Validating UI functionality, responsiveness, and user interactions
+  - Testing form submissions, navigation flows, and dynamic content loading
+  - Capturing screenshots and generating detailed test reports
+  - Identifying UI bugs, broken links, and accessibility issues
+  - Performing regression testing and cross-browser validation
+  - Generating Playwright test scripts for continuous integration
+  - Documenting test results with visual evidence and console logs
+  Always start by taking a snapshot to understand the page structure, wait for elements to load,
+  and provide detailed feedback on test outcomes with supporting evidence.
+llm: watsonx/meta-llama/llama-3-2-90b-vision-instruct
+style: default
+collaborators: []
+tools:
+  - playwright:browser_navigate
+  - playwright:browser_snapshot
+  - playwright:browser_click
+  - playwright:browser_type
+  - playwright:browser_hover
+  - playwright:browser_select_option
+  - playwright:browser_drag
+  - playwright:browser_press_key
+  - playwright:browser_file_upload
+  - playwright:browser_handle_dialog
+  - playwright:browser_wait_for
+  - playwright:browser_take_screenshot
+  - playwright:browser_console_messages
+  - playwright:browser_network_requests
+  - playwright:browser_tab_new
+  - playwright:browser_tab_list
+  - playwright:browser_tab_select
+  - playwright:browser_tab_close
+  - playwright:browser_navigate_back
+  - playwright:browser_navigate_forward
+  - playwright:browser_resize
+  - playwright:browser_pdf_save
+  - playwright:browser_generate_playwright_test

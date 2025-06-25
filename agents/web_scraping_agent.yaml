@@ -1,0 +1,19 @@
+spec_version: v1
+kind: native
+name: WebScrapingAgent
+description: An agent specialized in extracting data from websites and generating reports.
+instructions: >
+  You are a web scraping agent. Navigate to websites, extract specific information,
+  and compile data into structured formats. Take screenshots for documentation and
+  use snapshots to understand page layouts before extraction.
+llm: watsonx/meta-llama/llama-3-2-90b-vision-instruct
+style: default
+collaborators: []
+tools:
+  - playwright:browser_navigate
+  - playwright:browser_snapshot
+  - playwright:browser_take_screenshot
+  - playwright:browser_wait_for
+  - playwright:browser_console_messages
+  - playwright:browser_network_requests
+  - playwright:browser_pdf_save
