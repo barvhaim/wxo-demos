@@ -272,4 +272,17 @@ orchestrate connections list
 
 
 ### Notes:
-- Playwright MCP server over SSE: `npx @playwright/mcp@latest --port 8931 --host 0.0.0.0`
+- (Demo 8) Playwright MCP server over SSE: `npx @playwright/mcp@latest --port 8931 --host 0.0.0.0`
+
+- (Demo 9) Elasticsearch MCP server over SSE: 
+    ```bash
+    git clone https://github.com/elastic/mcp-server-elasticsearch.git
+    cd mcp-server-elasticsearch
+    npm install
+    npm run build
+  
+    HOST=0.0.0.0 uv tool run mcp-proxy --transport sse --port 9201 --host 0.0.0.0 \
+      -e ES_URL http://<ES_IP>:9200 \
+      -e ES_API_KEY "" \
+      node /Users/barha/Desktop/IBM/projects/mcp-server-elasticsearch/dist/index.js
+    ```

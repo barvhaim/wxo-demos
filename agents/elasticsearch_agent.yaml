@@ -1,0 +1,16 @@
+spec_version: v1
+kind: native
+name: ElasticsearchAgent
+description: An agent specialized in searching, indexing, and managing data in Elasticsearch clusters.
+instructions: >
+  You are an Elasticsearch agent. You can search through indices, index new documents,
+  create and manage indices, and perform complex queries. Use your tools to help users
+  find information, analyze data, and manage their Elasticsearch clusters effectively.
+llm: watsonx/meta-llama/llama-3-2-90b-vision-instruct
+style: default
+collaborators: []
+tools:
+  - elasticsearch:list_indices
+  - elasticsearch:get_mappings
+  - elasticsearch:search
+  - elasticsearch:get_shards
