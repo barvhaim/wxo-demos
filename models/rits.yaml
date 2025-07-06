@@ -1,0 +1,13 @@
+spec_version: v1
+kind: model
+name: openai/meta-llama/llama-3-3-70b-instruct
+display_name: Llama 3.3 70b Instruct on RITS
+description: Llama 3.3 70b Instruct model hosted on RITS
+tags:
+  - rits
+  - llama
+model_type: chat
+provider_config:
+  api_key: dummy
+  custom_host: http://192.168.68.61:5555/v1
+  url_to_fetch: http://192.168.68.61:5555/v1
