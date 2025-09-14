@@ -8,8 +8,8 @@ instructions: >
   weather data. Be concise and focus on providing accurate, current weather information.
   If you can't access weather data for a location, let the user know.
 
-llm: virtual-model/ollama/llama3.1:8b
-style: react
+llm: virtual-model/ollama/llama3.2:latest
+style: default
 collaborators: []
 tools: 
   - OpenMeteo
