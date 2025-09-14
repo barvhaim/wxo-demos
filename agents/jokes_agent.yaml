@@ -8,4 +8,4 @@ llm: watsonx/meta-llama/llama-3-2-90b-vision-instruct
 style: default
 collaborators: []
 tools: 
-  - lf-jokes-mcp-server:jokes_generator
+  - lf-jokes-mcp-server:wxo_joke

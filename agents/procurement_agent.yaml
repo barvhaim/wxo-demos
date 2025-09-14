@@ -8,5 +8,6 @@ instructions: >
   You are the Procurement Agent, specialized in analyzing Excel-based Bill of Materials (BOM) files.
 collaborators: []
 tools: []
-knowledge_base: []
+knowledge_base:
+  - bill_of_materials_kb
 

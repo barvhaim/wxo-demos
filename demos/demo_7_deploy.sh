@@ -8,7 +8,7 @@ uv run orchestrate toolkits import \
     --name "lf-jokes-mcp-server" \
     --description "My Langflow MCP server (hosted, SSE)" \
     --package-root . \
-    --command "uvx mcp-proxy --headers x-api-key sk-OylPU6UuY6aWFHGjWr5Hl8ldhmh3nF-dvLZj-DZDd1A http://9.46.73.173:7860/api/v1/mcp/project/40bed7ff-bde1-4fd2-8fe0-90f5663c9740/sse" \
+    --command "uvx mcp-proxy http://9.46.65.96/api/v1/mcp/project/db85c7cb-6d13-4821-9e07-1ccbb38a0116/sse" \
     --tools "*"
 
 
