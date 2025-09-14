@@ -252,3 +252,5 @@ cython_debug/
 #.idea/
 
 .adk
+CLAUDE.md
+.idea/

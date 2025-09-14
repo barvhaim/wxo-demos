@@ -23,7 +23,7 @@ instructions: >
   Be creative but grounded in scientific and technical reality.
 
 llm: watsonx/meta-llama/llama-3-2-90b-vision-instruct
-style: default
+style: react
 collaborators: []
 tools: []
 
